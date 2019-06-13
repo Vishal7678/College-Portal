@@ -1,0 +1,169 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>April19</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>April19</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Adm.aspx">Adm.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Adm.aspx.cs">Adm.aspx.cs</ProjectItem>
+      <Folder Name="Admin" TargetFolderName="Admin">
+        <ProjectItem ReplaceParameters="true" TargetFileName="adm.aspx">adm.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="adm.aspx.cs">adm.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin.master">Admin.master</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin.master.cs">Admin.master.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminLogin.aspx">AdminLogin.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminLogin.aspx.cs">AdminLogin.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dashboard.aspx">dashboard.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dashboard.aspx.cs">dashboard.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="depart.aspx">depart.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="depart.aspx.cs">depart.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExamTTadmin1.aspx">ExamTTadmin1.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExamTTadmin1.aspx.cs">ExamTTadmin1.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultAdmin.aspx">ResultAdmin.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultAdmin.aspx.cs">ResultAdmin.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resultadmin1.aspx">Resultadmin1.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resultadmin1.aspx.cs">Resultadmin1.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultadminCS.aspx">ResultadminCS.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ResultadminCS.aspx.cs">ResultadminCS.aspx.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Change1.aspx">Change1.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Change1.aspx.cs">Change1.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CommDep.aspx">CommDep.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CommDep.aspx.cs">CommDep.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Contact.aspx">Contact.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Contact.aspx.cs">Contact.aspx.cs</ProjectItem>
+      <Folder Name="css" TargetFolderName="css">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Adminlogin.css">Adminlogin.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="css_slider.css">css_slider.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome.min.css">font-awesome.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="login.css">login.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="profile.css">profile.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Regstyle.css">Regstyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="user.png">user.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="w3.css">w3.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="depart.aspx">depart.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="depart.aspx.cs">depart.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Department.aspx">Department.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Department.aspx.cs">Department.aspx.cs</ProjectItem>
+      <Folder Name="fonts" TargetFolderName="fonts">
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.eot">fontawesome-webfont.eot</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.svg">fontawesome-webfont.svg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.ttf">fontawesome-webfont.ttf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff">fontawesome-webfont.woff</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff2">fontawesome-webfont.woff2</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="FontAwesome.otf">FontAwesome.otf</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="forget1.aspx">forget1.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="forget1.aspx.cs">forget1.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forget2p.aspx">Forget2p.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forget2p.aspx.cs">Forget2p.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx">Home.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx.cs">Home.aspx.cs</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="1.jpg">1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="2.jpg">2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="3.jpg">3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="aarti mam.jpeg">aarti mam.jpeg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="aartimam.png">aartimam.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="acc.css">acc.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="admindep.jpg">admindep.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="admission.jpg">admission.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="admm.jpg">admm.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="b2.jpg">b2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="background.jpg">background.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bg1.jpg">bg1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bg3.jpg">bg3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="blog1.jpg">blog1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="blog2.jpg">blog2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="blog3.jpg">blog3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="dep.jpg">dep.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="dep.png">dep.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g1.jpg">g1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g2.jpg">g2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g3.jpg">g3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g4.jpg">g4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g5.jpg">g5.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="g6.jpg">g6.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="hiral.jpg">hiral.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="img-01.png">img-01.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="janet.jpg">janet.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="log.png">log.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="logo.png">logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="move-top.png">move-top.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="rajani.jpg">rajani.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ratnam1.jpg">ratnam1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ratnam2.jpg">ratnam2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ratnam3.jpg">ratnam3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="s.jpg">s.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="school-background-wallpaper (1).jpg">school-background-wallpaper (1).jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="school-background-wallpaper.jpg">school-background-wallpaper.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="t1.jpg">t1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="t2.jpg">t2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="t3.jpg">t3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="t4.jpg">t4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="te1.jpg">te1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="te2.jpg">te2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="te3.jpg">te3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="users.png">users.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="who.jpg">who.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="jquery.js">jquery.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master">MasterPage.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master.cs">MasterPage.master.cs</ProjectItem>
+      <Folder Name="Notice" TargetFolderName="Notice">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExaminationTT.aspx">ExaminationTT.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExaminationTT.aspx.cs">ExaminationTT.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Notice.aspx">Notice.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Notice.aspx.cs">Notice.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Result.aspx">Result.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Result.aspx.cs">Result.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TYCSResult.aspx">TYCSResult.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TYCSResult.aspx.cs">TYCSResult.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TYITResult.aspx">TYITResult.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TYITResult.aspx.cs">TYITResult.aspx.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notice.aspx">Notice.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Notice.aspx.cs">Notice.aspx.cs</ProjectItem>
+      <Folder Name="pdf" TargetFolderName="pdf">
+        <ProjectItem ReplaceParameters="false" TargetFileName="4.233-S.Y.B.Sc_.-Information-Technology1.pdf">4.233-S.Y.B.Sc_.-Information-Technology1.pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="4.49-Final-TYBSc-IT-Syllabus-2.pdf">4.49-Final-TYBSc-IT-Syllabus-2.pdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="board.v1.jpg">board.v1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min (1).css">bootstrap.min (1).css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="notice-board(1).jpg">notice-board(1).jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="StudentReg.txt">StudentReg.txt</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Prof.aspx">Prof.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Prof.aspx.cs">Prof.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.aspx">profile.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.aspx.cs">profile.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RegisterOTPVerify.aspx">RegisterOTPVerify.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RegisterOTPVerify.aspx.cs">RegisterOTPVerify.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SciDep.aspx">SciDep.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SciDep.aspx.cs">SciDep.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stdent.aspx">stdent.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="stdent.aspx.cs">stdent.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StudentReg.aspx">StudentReg.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StudentReg.aspx.cs">StudentReg.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Studentsection.aspx">Studentsection.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Studentsection.aspx.cs">Studentsection.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

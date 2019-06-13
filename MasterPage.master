@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/css_slider.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- header 2 -->
+	<!-- navigation -->
+	<div class="main-top">
+		<div class="container d-lg-flex">
+			<!-- logo -->
+			<h1 class="logo-style-res float-left">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" class="img-fluid logo-img">Ratnam College <span>The Best Edu</span>
+				</a>
+			</h1>
+			<!-- //logo -->
+			<!-- nav -->
+			<div class="nav_w3ls mx-lg-auto">
+				<nav>
+					
+					<ul class="menu mx-lg-auto">
+						<li><a href="Home.aspx" class="active">Home</a></li>
+						<li><a href="Department.aspx">Department</a></li>
+						<li><a href="Notice/Notice.aspx">Notice</a></li>
+                        <li><a href="Contact.aspx">Contact Us</a></li>                       
+                     
+					
+                                        <button type="button" class="btn  btn-danger"><a href="Admin/AdminLogin.aspx">Admin</a></button>
+                                       <button type="button" class="btn  btn-primary"><a href="stdent.aspx">Login</a></button>
+                                       <button type="button" class="btn  btn-primary"><a href="StudentReg.aspx">Signin</a></button>
+
+
+
+                    </ul>
+                  
+                          
+				</nav>
+              
+			</div>
+			<!-- //nav -->
+
+		</div>
+	</div>
+	<!-- //navigation -->
+	<!-- //header 2 -->
+
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- copyright -->
+	<div class="copyright-w3ls py-4">
+		<div class="container">
+			<div class="row">
+				<!-- copyright -->
+				<p class="col-lg-8 copy-right-grids text-bl text-lg-left text-center mt-lg-2">© 2019 Studies. All
+					Rights Reserved | Design by
+					<a href="#" target="_blank" class="text-colors">Ratnam College</a>
+				</p>
+				<!-- //copyright -->
+				<!-- social icons -->
+				<div class="col-lg-4 w3social-icons text-lg-right text-center mt-lg-0 mt-3">
+					<ul>
+						<li>
+							<a href="#" class="rounded-circle">
+								<span class="fa fa-facebook-f"></span>
+							</a>
+						</li>
+						<li class="px-2">
+							<a href="#" class="rounded-circle">
+								<span class="fa fa-google-plus"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="rounded-circle">
+								<span class="fa fa-twitter"></span>
+							</a>
+						</li>
+						<li class="pl-2">
+							<a href="#" class="rounded-circle">
+								<span class="fa fa-dribbble"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- //social icons -->
+			</div>
+		</div>
+	</div>
+
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5cbc6e27c1fe2560f3ffd095/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+	<!-- //copyright -->
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+</body>
+</html>
